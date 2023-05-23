@@ -1,0 +1,19 @@
+.button-line{
+    flex-direction: row;
+}
+.btn btn-infoo{
+    margin-left: 1000px;
+}
+.add{
+    margin-left: 1300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.bton-add{
+    width: 10px;
+   height: 100px;
+    display: flex;
+    flex-direction: row;
+    /* /* padding-left: 50px; */
+    margin-left: 10px; 
+}

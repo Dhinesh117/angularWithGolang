@@ -1,0 +1,24 @@
+<!-- new-user.component.html -->
+<div class="container">
+    <h2>Add Book</h2>
+    <form     (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Id:</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="book.id" name="id" ngModel required>
+      </div>
+      <div class="form-group">
+        <label for="email">Title:</label>
+        <input type="email" class="form-control" id="title" [(ngModel)]="book.title" name="email" ngModel required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Author:</label>
+        <input type="tel" class="form-control" id="author" [(ngModel)]="book.author" name="phone" ngModel required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Price:</label>
+        <input type="text" class="form-control" id="price" [(ngModel)]="book.price" name="phone" ngModel required>
+      </div>
+      <button  type="submit" class="btn btn-primary">Add Book</button>
+    </form>
+  </div>
+  

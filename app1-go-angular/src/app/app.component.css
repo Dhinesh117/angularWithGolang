@@ -1,0 +1,7 @@
+.navbar navbar-light{
+    overflow: hidden;
+    background-color: #576ff5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
